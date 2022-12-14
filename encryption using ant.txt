@@ -1,0 +1,8 @@
+install APACHE ANT 1.10.10
+set it's classpath 
+then use this command:
+CD to D:\apache-ant-1.10.10\bin>
+
+then run this command :ant -f D:\ant\src\util\encryption-util.xml decrypt
+
+pass the encryption key present inside application.properties
